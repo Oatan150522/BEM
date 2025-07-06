@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.data-table {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-table__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.data-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.data-table__head {
+    background-color: #007bff;
+    color: white;
+}
+
+.data-table__row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table__cell {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+
+}
+
+.data-table__cell--header {
+    font-weight: bold;
+    text-align: center;
+}

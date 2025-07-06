@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card {
+    background-color: grey;
+    padding: 16px;
+    border-radius: 12px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card__titulo {
+    font-size: 1.5rem;
+    color: white;
+    margin: 12px ;
+}
+
+.card__descripcion {
+    font-size: 1rem;
+    color: #f0f0f0;
+    margin-bottom: 8px;
+}
+
+.card__precio {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 12px;
+}
+
+.card__boton {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card__boton--primario {
+    background-color: #007bff;
+    color: white;
+}
+
+.card__boton--primario:hover {
+    background-color: #0056b3;
+}

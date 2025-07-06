@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+
+.gallery__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    }
+
+.gallery__grid {
+  font-size: 0; /* elimina espacios entre elementos inline-block */
+}
+
+.gallery__item {
+    display: inline-block;
+    width: 32%;
+    margin: 0.5%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}

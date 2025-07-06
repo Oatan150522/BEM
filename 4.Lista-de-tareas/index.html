@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="todo-list">
+        <h2 class="todo-list__title">Lista de Tareas</h2>
+
+    <form class="todo-list__form">
+        <input class="todo-list__input" type="text" placeholder="Nueva tarea..." required>
+        <button class="todo-list__add-button" type="submit">Agregar</button>
+    </form>
+
+    <ul class="todo-list__items">
+        <li class="todo-list__item">
+            <span class="todo-list__task">Aprender BEM</span>
+            <button class="todo-list__delete-button">Eliminar</button>
+        </li>
+        <li class="todo-list__item todo-list__item--completed">
+            <span class="todo-list__task">Estudiar CSS</span>
+            <button class="todo-list__delete-button">Eliminar</button>
+        </li>
+    </ul>
+</div>
+
+    
+</body>
+</html>
